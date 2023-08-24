@@ -3,11 +3,12 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test_modular_6/app/modules/home/home_module.dart';
 import 'package:test_modular_6/app/modules/home/home_store.dart';
-import 'package:test_modular_6/app/modules/usecases/log_increment.dart';
+import 'package:test_modular_6/app/modules/home/usecases/log_increment.dart';
 
 class MockLogIncrement extends Mock implements ILogIncrement {}
 
 final mockLogIncrement = MockLogIncrement();
+
 void main() {
   Modular.bindModule(HomeModule());
 

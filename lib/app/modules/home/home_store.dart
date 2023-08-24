@@ -1,5 +1,5 @@
 import 'package:flutter_triple/flutter_triple.dart';
-import 'package:test_modular_6/app/modules/usecases/log_increment.dart';
+import 'package:test_modular_6/app/modules/home/usecases/log_increment.dart';
 
 class HomeStore extends Store<int> {
   final ILogIncrement _logIncrement;
